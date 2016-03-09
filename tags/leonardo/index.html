@@ -1,97 +1,323 @@
 <!DOCTYPE html>
-<html xmlns="//www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-    <head>
-        
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
-        <title>Leonardo &middot; odvinc Blogs</title>
-        <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' type='text/css'>
-        <link rel="stylesheet" href="http://localhost:1313//libraries/normalize.3.0.1.css" />
-        <link rel="stylesheet" href="http://localhost:1313//css/liquorice.css" />
-        <link rel="shortcut icon" href="/favicon.ico" />
-        <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-144-precomposed.png" sizes="144x144" />
-        <link rel="alternate" href="http://localhost:1313/tags/leonardo/index.xml" type="application/rss+xml" title="odvinc Blogs" />
-    </head>
-    <body class="li-body">
-
-<header class="li-page-header">
-    <div class="container">
-        <div class="row">
-            <div class="sixteen columns">
-                <div class="li-brand li-left">
-                <a href="http://localhost:1313/">odvinc Blogs</a></div>
-                <div class="li-menu li-right">
-                    <span class="li-menu-icon" onclick="javascript:toggle('menu');">&#9776;</span>
-                    <ul id="menu2" class="li-menu-items">
-                        
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="sixteen columns">
-                <ul id="menu" class="li-menu-items li-menu-mobile">
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
-</header>
-
-
-    <div class="container">
-        <div class="row">
-            <div class="sixteen columns">
-                <h1>Leonardo</h1>
-                <ul class="li-article-list">
-                    
-                        <li>
-                            <time class="li-article-date">April, 4, 2014</time>
-                            <h4><a href="http://localhost:1313/smart_house/">Умный дом на базе Arduino (Leonardo) и GSM модема</a></h4>
-                        </li>
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
-
-<footer class="li-page-footer">
-    <div class="container">
-        <div class="row">
-            <div class="sixteen columns">
-                <div class="li-page-footer-legal">
-                    &copy; 2016. All rights reserved. 
-                </div>
-                <div class="li-page-footer-theme">
-                    <span class=""><a href="https://github.com/eliasson/liquorice/">liquorice</a> is a theme for <a href="http://hugo.spf13.com">hugo</a></span>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-    <script type="text/javascript">
-    <!--
-    function toggle(id) {
-        var e = document.getElementById(id);
-        e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
-    }
+<html lang="ru-ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>odvinc Blogs</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<!--[if lt IE 9]>
+	<script src="http://odvinc.ru//js/html5.js"></script>
+	<![endif]-->
     
-    </script>
-    <script type="text/javascript">
-    <!--
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', ""]);
-        _gaq.push(['_trackPageview']);
+    <link href="http://odvinc.ru//index.xml" rel="alternate" type="application/rss+xml" title="odvinc Blogs" />
 
-        (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-    -->
-    </script>
-    <script data-no-instant>document.write('<script src="/livereload.js?mindelay=10"></' + 'script>')</script></body>
+    <link rel='stylesheet' id='twentyfourteen-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='genericons-css' href='http://odvinc.ru//genericons/genericons.css' type='text/css' media='all' />
+	<link rel='stylesheet' id='twentyfourteen-style-css' href='http://odvinc.ru//css/style.css' type='text/css' media='all' />
+	
+	<script type='text/javascript' src='http://odvinc.ru//js/jquery/jquery.js'></script>
+	<script type='text/javascript' src='http://odvinc.ru//js/jquery/jquery-migrate.min.js'></script>
+	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+</head>
+
+<body class="home blog masthead-fixed list-view full-width grid">
+<div id="page" class="hfeed site">
+	<header id="masthead" class="site-header" role="banner">
+		<div class="header-main">
+			<h1 class="site-title"><a href="http://odvinc.ru//index.html" rel="home">odvinc Blogs</a></h1>
+
+			<div class="search-toggle">
+				<a href="#search-container" class="screen-reader-text">Search</a>
+			</div>
+
+			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+				<button class="menu-toggle">Primary Menu</button>
+				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
+				<div class="nav-menu">
+					<ul>
+						
+					</ul>
+				</div>
+			</nav>
+		</div>
+
+		<div id="search-container" class="search-box-wrapper hide">
+			<div class="search-box">
+                <script type="text/javascript">
+    function site_search(obj) {
+    	var host = window.location.host;
+        obj.q.value = "site:" + host + " " + obj.ss_q.value;
+    }
+</script>
+
+<aside id="search-3" class="widget widget_search">
+	<form role="search" class="search-form" action="//www.google.com/search" method="get" onSubmit="site_search(this)">
+
+	<input name="q" type="hidden" />
+	    <label>
+	        <span class="screen-reader-text">Search for:</span>
+	        <input name="ss_q" type="text" placeholder="Search ..." class="search-field" />
+	    </label>
+	    <input type="submit" value="Search" class="search-submit" />
+	</form>
+</aside>
+			</div>
+		</div>
+	</header>
+
+	<div id="main" class="site-main">
+
+
+<div id="main-content" class="main-content">
+
+	<div id="primary" class="content-area">
+		<div id="content" class="site-content" role="main">
+
+			<header class="archive-header">
+				<h1 class="archive-title">Leonardo Archive</h1>
+			</header>
+
+			
+				<article class="post type-post status-publish format-standard hentry">
+
+	
+	<header class="entry-header">
+
+	
+
+		<div class="entry-meta">
+			<span class="cat-links">
+                
+                <a href="http://odvinc.ru//categories/arduino/index.html" rel="category">arduino</a>
+                
+                <a href="http://odvinc.ru//categories/development/index.html" rel="category">development</a>
+                
+			</span>
+		</div>
+
+		<h1 class="entry-title">Умный дом на базе Arduino (Leonardo) и GSM модема</h1>
+
+		<div class="entry-meta">
+			<span class="entry-date">
+				<a href="http://odvinc.ru/smart_house//index.html" rel="bookmark">
+					<time class="entry-date" datetime="2014-04-04 00:00:00 &#43;0000 UTC">
+						April 4
+					</time>
+				</a>
+			</span>
+		</div>
+
+	</header>
+	
+	<div class="entry-content">
+		<p>Эта статья о том как можно создать <a title="Умный дом" href="http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC" target="_blank">&#171;Умный дом&#187;</a> своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.</p>
+
+<p>Идея собрать и реализовать данную систему принадлежит моему отцу, за ним же и вся часть связанная с паяльником =) Я же, являюсь автором этой статьи и заказанного отцом кода, так как он пока не очень быстро научился писать программы для ардуинчика.</p>
+
+<p>Ядром нашей системы будет выступать плата ввода-вывода <a title="Arduino BOARDS" href="http://arduino.cc/en/Main/Products" target="_blank">Arduino</a> (в нашем случае <a title="Arduino Leonardo" href="http://arduino.cc/en/Main/ArduinoBoardLeonardo" target="_blank">Leonardo</a>), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке <a title="Processing" href="http://ru.wikipedia.org/wiki/Processing" target="_blank">Processing</a>/Wiring (очень простой и понятный си подобный язык ).</p>
+
+<p><center>
+<a href="http://arduino.cc/en/Main/ArduinoBoardLeonardo"><img src="/post/img/ArduinoLeonardoFront_2_400px.jpg" alt="Arduino Leonardo" title="Arduino Leonardo" /></a><br />
+<small>Arduino Leonardo</small>
+</center></p>
+
+<p>Заказать Arduino можно, например на <a href="http://aliexpress.com">AliExpress</a>. Стоимость за версию <a href="http://arduino.cc/en/Main/ArduinoBoardLeonardo" title="Leonardo">Arduino Leonardo</a> у хорошего продавца, в среднем составляет 10$.</p>
+
+<p>Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать <a href="http://arduino.cc/en/Main/ArduinoGSMShield">Arduino GSM Shield</a>. Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.</p>
+
+<p><center>
+<img src="/post/img/Siemens-MC35i-Terminal.jpg" alt="Siemens MC35i Terminal" title="Siemens MC35i Terminal" /><br />
+<small>Siemens MC35i Terminal</small>
+</center></p>
+
+<p>Схему подключения пришлось немного доработать, так как потребовалось согласовать уровни. Для этого была использована микросхема <a title="MAX232" href="http://ru.wikipedia.org/wiki/MAX232" target="_blank">MAX232</a>. Микросхему установили навесным монтажом, непосредственно внутри модема. Схема подключения аналогична <a title="Схема подключения MAX232" href="http://www.robolive.ru/circuit/max232.php" target="_blank">этой</a>.</p>
+
+<p>Исходный код, достаточно подробно документирован, фактически комментарий есть к каждой строке, чтобы  логика программы была понятна человеку не сильно сведущему в программировании, и в случае необходимости, каждый смог бы переделать программу под свои нужды.</p>
+
+<p>Ссылка на исходный код доступна на <a title="Smart House" href="https://github.com/odvinc/smart_house" target="_blank">GitHub</a>. Там же можно найти несколько вариаций, в которых кнопка постановки на охрану и сенсоры логически инвертированы с 0 на 1. Одним из вариантов является SoftwareSerial - может пригодиться, тем кто будет использовать Arduino с одним последовательным портом и кто захочет переопределить контакты RX,TX на условно произвольные. Для выбора вариантов нужно нажимать на кнопочку branch, как показано на скриншете:</p>
+
+<p><center><img src="/post/img/select_branch.png" alt="Select GitHub Branch" title="Select GitHub Branch" /></center></p>
+
+<p>Основной вариант программы с использованием модема на порту COM1 (в коде Serial1) находится в branch: <strong>master</strong>. Загрузить скетч (так принято называть программы для arduino) целиком, можно нажав кнопку <strong>&#171;Download ZIP&#187;</strong>, в правом нижнем углу.</p>
+
+<p>В файлике <a href="https://github.com/odvinc/smart_house/blob/master/at_sms.txt" title="at_sms.txt">at_sms.txt</a> представлен типовой диалог инициализации модема и получения смс сообщения с текстом &#171;STATUS&#187;, к которому мы подключены терминалом через последовательный порт.</p>
+
+<p>В файле <a href="https://github.com/odvinc/smart_house/blob/master/smart_house.ino" title="smart_house.ino">smart_house.ino</a> находится непосредственно скетч.</p>
+
+<p>Тем кому лень, детально изучать код программы и вникать в тонкости - расскажу, как примерно работает логика программы и как можно адаптировать ее под себя.</p>
+
+<p>Прежде всего, хочу обратить внимание, что из фиксированного функционала в программу заложена только защита периметра. Для этого на определенный пин (в нашем примере это 12 pin) заведена секретная кнопка. После запуска arduino система ожидает ее нажатия, для инициализации постановки на охрану. В случае если инициализация произойдет, то она ожидает разрыв и замыкание периметра (открытие и закрытие двери), о чем сообщает кратковременными звуковыми сигналами с динамика (в нашем примере динамик расположен на 5 пине, а периметр отожествлен с пином номер 8). Как только произойдет закрытие двери, система встанет на охрану и будет ожидать, когда произойдет событие размыкание контура. После того как мы вернулись домой, и открыли дверь, система нам предоставит 10 секунд (параметр в функции <code>checkIFF(10)</code>) на нажатие  секретной кнопки. Если же мы этого не делаем или не успеваем в отведенное нам время, система отправляет смс сообщение на номер(а) хозяина, и переходит в режим аварийного звукового оповещения. Снять аварийный режим можно длительным 4х секундным нажатием на секретную кнопку.</p>
+
+<p>В случае если срабатывают сенсоры, также приходит смс уведомление с информацией какой сенсор сработал и что произошло.</p>
+
+<p>Большинство настроек, таких как номера пинов,  массивы для датчиков и устройств доступны в начале кода программы.</p>
+
+<pre><code>// постоянные
+const int buttonPin = 12; // пин для кнопки
+const int perimeterPin = 8; // пин для периметра
+const int ledPin = 10 ; // пин индикатора
+const int sysledPin = 13; // пин системного индикатора
+const int tonePin = 5; // пин для динамика
+...
+</code></pre>
+
+<p>Номера телефонов на которые будут отправляться смс уведомления задаются в массив  <code>smsNumbers[]</code> через запятую, по формату.</p>
+
+<pre><code>char* smsNumbers[] = {&quot;+79110000000&quot;, &quot;+79630000000&quot;}; // номера на которые необходимо отсылать аварийные сообщения
+...
+</code></pre>
+
+<p>Если оставить массив пустым <code>smsNumbers[] = {};</code> то сообщения отправляться не будут, останутся только звуковое оповещения.</p>
+
+<p>Аналогичным способом можно определить имеющиеся у вас сенсоры и устройства. Ниже пример определения двух сенсоров, &#8212; датчика протечки воды и утечки газа, где по порядку  определены: пин на котором находится сенсор, состояние сенсора и состояние аварии на момент инициализации arduino, название сенсора для смс уведомления, а также аварийное сообщение и сообщение по его локализации.</p>
+
+<pre><code>// объявление сенсоров и их кодов ошибок
+tSensor mySensors[] = {
+    { 6, false, false, &quot;Water&quot;, &quot;WARNING! Found water leakage.&quot;, &quot;Water leakage disappeared.&quot; },
+    { 3, false, false, &quot;Gas&quot;, &quot;WARNING! Found gas leakage.&quot;, &quot;Gas leakage disappeared.&quot; }
+};
+...
+</code></pre>
+
+<p>Также в программу заложена логика управления устройствами. В данном случае под устройствами понимается некий пин назначенный вами, к которому вы можете подключить реле или просто устанавливать логический ноль или единицу отправив команду по смс.</p>
+
+<p>Устройства определяются точно таким же образом, как и сенсоры за небольшим исключением в формате записи массива.</p>
+
+<p>Формат записи устройств: <em>[пин, состояние устройства на момент запуска, сенсорная кнопка или нет, название устройства для смс информирования]</em></p>
+
+<p>Пример:</p>
+
+<pre><code>// объявление устройств и их состояний
+tDevice myDevices[] = {
+    { 7, false, true, &quot;Unit 1&quot;},
+    { 2, false, false, &quot;Unit 2&quot;}
+};
+...
+</code></pre>
+
+<p>Третье по порядку значение, определяет тип кнопки устройства. Кнопка может быть &#171;сенсорной&#187;, т.е. при подаче команды на нее подается логическая 1 и 0 с интервалом в 1 сек, либо фиксированная, где - 1 всегда вкл,  а 0 выкл.</p>
+
+<p>Управлять устройствами можно отправив sms сообщение следующего формата, на номер к которому подключена система:</p>
+
+<p>[секретный код][0 или 1]&hellip;[0 или 1], где секретный код, это код заданный в начале программы, а 0 и 1 символизируют выключенное и включенное состояние соответственно:</p>
+
+<pre><code>String secretStr = &quot;7770:&quot;; // кодовое слово для подачи команд по смс
+...
+</code></pre>
+
+<p>т.е. например, чтобы включить первое устройство и выключить второе необходимо отправить смс сообщение следующего содержания &#171;<strong>7770:10</strong>&#187; . Количество параметров в смс, должно соответствовать количеству устройств в системе, в противном случае сообщение будет проигнорировано.</p>
+
+<p>Если на номер системы отправить смс сообщение со словом &#171;<strong>STATUS</strong>&#187;, то в ответ вы получите примерно такое сообщение:</p>
+
+<p><center><img src="/post/img/status_msg.png" alt="STATUS Message" title="STATUS Message" /></center></p>
+
+<p>Можно пойти дальше и написать приложение, например для Android, но мы решили не заморачиваться =)</p>
+
+<p>Вся отладочная информация дублируется на последовательный по умолчанию порт Serial. Этот же порт при желании можно задействовать для gsm модема, закомментировав  отладочный вывод.</p>
+
+<p>P.S. При монтаже системы столкнулись с проблемой ложных срабатываний из-за достаточно большой длинны периметра. Как оказалось, бороться с этим достаточно просто установив несколько керамических конденсаторов по 5 вольтам Arduino.</p>
+
+<p>Скачать среду разработки <a title="Arduino IDE" href="http://arduino.cc/en/Main/Software" target="_blank">Arduino IDE</a> для вашей ОС можно по ссылке с официального сайта.</p>
+
+	</div>
+
+	<footer class="entry-meta">
+		<span class="tag-links">		
+			
+                <a href="http://odvinc.ru//tags/arduino/index.html" rel="tag">arduino</a>
+            
+                <a href="http://odvinc.ru//tags/development/index.html" rel="tag">development</a>
+            
+                <a href="http://odvinc.ru//tags/leonardo/index.html" rel="tag">leonardo</a>
+            
+		</span>
+	</footer>
+</article> 
+			
+		
+		</div>
+	</div>
+	<div id="secondary">
+
+	
+
+	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+
+		<script type="text/javascript">
+    function site_search(obj) {
+    	var host = window.location.host;
+        obj.q.value = "site:" + host + " " + obj.ss_q.value;
+    }
+</script>
+
+<aside id="search-3" class="widget widget_search">
+	<form role="search" class="search-form" action="//www.google.com/search" method="get" onSubmit="site_search(this)">
+
+	<input name="q" type="hidden" />
+	    <label>
+	        <span class="screen-reader-text">Search for:</span>
+	        <input name="ss_q" type="text" placeholder="Search ..." class="search-field" />
+	    </label>
+	    <input type="submit" value="Search" class="search-submit" />
+	</form>
+</aside>
+
+		<aside id="recent-posts-3" class="widget widget_recent_entries">
+
+	
+	<h1 class="widget-title">Recent Posts</h1>
+		<ul>
+			
+			<li>
+				<a href="http://odvinc.ru/smart_house//index.html">Умный дом на базе Arduino (Leonardo) и GSM модема</a>
+			</li>
+			
+		</ul>
+	
+</aside>
+
+		<aside id="categories-3" class="widget widget_categories">
+	
+	<h1 class="widget-title">Categories</h1>
+
+	<ul>
+		
+		
+		
+		<li class="cat-item">
+			<a href="http://odvinc.ru//categories/arduino/index.html">Arduino</a>
+		</li>
+
+		
+		
+		<li class="cat-item">
+			<a href="http://odvinc.ru//categories/development/index.html">Development</a>
+		</li>
+
+		
+
+	</ul>
+
+</aside>
+
+	</div>
+
+</div>
+
+</div>
+
+		</div>
+
+		<footer id="colophon" class="site-footer" role="contentinfo">
+
+			<div class="site-info">
+				<a href="http://gohugo.io">Proudly powered by Hugo</a>
+			</div>
+		</footer>
+	</div>
+
+	<script type='text/javascript' src='http://odvinc.ru//js/functions.js'></script>
+</body>
 </html>
-

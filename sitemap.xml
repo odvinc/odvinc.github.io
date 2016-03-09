@@ -2,23 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2016-03-09T11:14:24+03:00</lastmod>
+    <loc>http://odvinc.ru/</loc>
+    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/first/</loc>
-    <lastmod>2016-03-09T11:14:24+03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://odvinc.ru/about/</loc>
     <lastmod>2014-04-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/smart_house/</loc>
+    <loc>http://odvinc.ru/smart_house/</loc>
     <lastmod>2014-04-04T00:00:00+00:00</lastmod>
   </url>
   
