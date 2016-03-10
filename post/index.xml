@@ -2,37 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on odvinc Blogs</title>
-    <link>http://localhost:1313/post/</link>
+    <link>http://test.odvinc.ru/post/</link>
     <description>Recent content in Posts on odvinc Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Wed, 09 Mar 2016 11:14:24 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>first</title>
-      <link>http://localhost:1313/post/first/</link>
-      <pubDate>Wed, 09 Mar 2016 11:14:24 +0300</pubDate>
-      
-      <guid>http://localhost:1313/post/first/</guid>
-      <description>&lt;p&gt;first&lt;/p&gt;
-</description>
-    </item>
+    <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://test.odvinc.ru/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Умный дом на базе Arduino (Leonardo) и GSM модема</title>
-      <link>http://localhost:1313/smart_house/</link>
+      <link>http://test.odvinc.ru/smart_house/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/smart_house/</guid>
-      <description>&lt;p&gt;Эта статья о том как можно создать &lt;a title=&#34;Умный дом&#34; href=&#34;http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC&#34; target=&#34;_blank&#34;&gt;&amp;#171;Умный дом&amp;#187;&lt;/a&gt; своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.&lt;/p&gt;
+      <guid>http://test.odvinc.ru/smart_house/</guid>
+      <description>&lt;p&gt;Эта статья о том как можно &lt;a href=&#34;http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC&#34;&gt;&amp;#171;Умный дом&amp;#187;&lt;/a&gt; своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.&lt;/p&gt;
 
 &lt;p&gt;Идея собрать и реализовать данную систему принадлежит моему отцу, за ним же и вся часть связанная с паяльником =) Я же, являюсь автором этой статьи и заказанного отцом кода, так как он пока не очень быстро научился писать программы для ардуинчика.&lt;/p&gt;
 
-&lt;p&gt;Ядром нашей системы будет выступать плата ввода-вывода &lt;a title=&#34;Arduino BOARDS&#34; href=&#34;http://arduino.cc/en/Main/Products&#34; target=&#34;_blank&#34;&gt;Arduino&lt;/a&gt; (в нашем случае &lt;a title=&#34;Arduino Leonardo&#34; href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34; target=&#34;_blank&#34;&gt;Leonardo&lt;/a&gt;), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке &lt;a title=&#34;Processing&#34; href=&#34;http://ru.wikipedia.org/wiki/Processing&#34; target=&#34;_blank&#34;&gt;Processing&lt;/a&gt;/Wiring (очень простой и понятный си подобный язык ).&lt;/p&gt;
+&lt;p&gt;Ядром нашей системы будет выступать плата ввода-вывода &lt;a href=&#34;http://arduino.cc/en/Main/Products&#34; title=&#34;Arduino Products&#34;&gt;Arduino&lt;/a&gt; (в нашем случае &lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34;&gt;Arduino Leonardo&lt;/a&gt;), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке &lt;a href=&#34;http://ru.wikipedia.org/wiki/Processing&#34;&gt;Processing&lt;/a&gt;/Wiring (очень простой и понятный си подобный язык ).&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34;&gt;&lt;img src=&#34;http://localhost:1313/post/img/ArduinoLeonardoFront_2_400px.jpg&#34; alt=&#34;Arduino Leonardo&#34; title=&#34;Arduino Leonardo&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34;&gt;&lt;img src=&#34;http://test.odvinc.ru/post/img/ArduinoLeonardoFront_2_400px.jpg&#34; alt=&#34;Arduino Leonardo&#34; title=&#34;Arduino Leonardo&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;small&gt;Arduino Leonardo&lt;/small&gt;
 &lt;/center&gt;&lt;/p&gt;
 
@@ -41,17 +31,17 @@
 &lt;p&gt;Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать &lt;a href=&#34;http://arduino.cc/en/Main/ArduinoGSMShield&#34;&gt;Arduino GSM Shield&lt;/a&gt;. Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;http://localhost:1313/post/img/Siemens-MC35i-Terminal.jpg&#34; alt=&#34;Siemens MC35i Terminal&#34; title=&#34;Siemens MC35i Terminal&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;http://test.odvinc.ru/post/img/Siemens-MC35i-Terminal.jpg&#34; alt=&#34;Siemens MC35i Terminal&#34; title=&#34;Siemens MC35i Terminal&#34; /&gt;&lt;br /&gt;
 &lt;small&gt;Siemens MC35i Terminal&lt;/small&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Схему подключения пришлось немного доработать, так как потребовалось согласовать уровни. Для этого была использована микросхема &lt;a title=&#34;MAX232&#34; href=&#34;http://ru.wikipedia.org/wiki/MAX232&#34; target=&#34;_blank&#34;&gt;MAX232&lt;/a&gt;. Микросхему установили навесным монтажом, непосредственно внутри модема. Схема подключения аналогична &lt;a title=&#34;Схема подключения MAX232&#34; href=&#34;http://www.robolive.ru/circuit/max232.php&#34; target=&#34;_blank&#34;&gt;этой&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Схему подключения пришлось немного доработать, так как потребовалось согласовать уровни. Для этого была использована микросхема &lt;a href=&#34;http://ru.wikipedia.org/wiki/MAX232&#34;&gt;MAX232&lt;/a&gt;. Микросхему установили навесным монтажом, непосредственно внутри модема. Схема подключения аналогична &lt;a title=&#34;Схема подключения MAX232&#34; href=&#34;http://www.robolive.ru/circuit/max232.php&#34; target=&#34;_blank&#34;&gt;этой&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Исходный код, достаточно подробно документирован, фактически комментарий есть к каждой строке, чтобы  логика программы была понятна человеку не сильно сведущему в программировании, и в случае необходимости, каждый смог бы переделать программу под свои нужды.&lt;/p&gt;
 
 &lt;p&gt;Ссылка на исходный код доступна на &lt;a title=&#34;Smart House&#34; href=&#34;https://github.com/odvinc/smart_house&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;. Там же можно найти несколько вариаций, в которых кнопка постановки на охрану и сенсоры логически инвертированы с 0 на 1. Одним из вариантов является SoftwareSerial - может пригодиться, тем кто будет использовать Arduino с одним последовательным портом и кто захочет переопределить контакты RX,TX на условно произвольные. Для выбора вариантов нужно нажимать на кнопочку branch, как показано на скриншете:&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://localhost:1313/post/img/select_branch.png&#34; alt=&#34;Select GitHub Branch&#34; title=&#34;Select GitHub Branch&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://test.odvinc.ru/post/img/select_branch.png&#34; alt=&#34;Select GitHub Branch&#34; title=&#34;Select GitHub Branch&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Основной вариант программы с использованием модема на порту COM1 (в коде Serial1) находится в branch: &lt;strong&gt;master&lt;/strong&gt;. Загрузить скетч (так принято называть программы для arduino) целиком, можно нажав кнопку &lt;strong&gt;&amp;#171;Download ZIP&amp;#187;&lt;/strong&gt;, в правом нижнем углу.&lt;/p&gt;
 
@@ -84,7 +74,7 @@ const int tonePin = 5; // пин для динамика
 
 &lt;p&gt;Если оставить массив пустым &lt;code&gt;smsNumbers[] = {};&lt;/code&gt; то сообщения отправляться не будут, останутся только звуковое оповещения.&lt;/p&gt;
 
-&lt;p&gt;Аналогичным способом можно определить имеющиеся у вас сенсоры и устройства. Ниже пример определения двух сенсоров, &amp;#8212; датчика протечки воды и утечки газа, где по порядку  определены: пин на котором находится сенсор, состояние сенсора и состояние аварии на момент инициализации arduino, название сенсора для смс уведомления, а также аварийное сообщение и сообщение по его локализации.&lt;/p&gt;
+&lt;p&gt;Аналогичным способом можно определить имеющиеся у вас сенсоры и устройства. Ниже пример определения двух сенсоров, - датчика протечки воды и утечки газа, где по порядку  определены: пин на котором находится сенсор, состояние сенсора и состояние аварии на момент инициализации arduino, название сенсора для смс уведомления, а также аварийное сообщение и сообщение по его локализации.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;// объявление сенсоров и их кодов ошибок
 tSensor mySensors[] = {
@@ -124,7 +114,7 @@ tDevice myDevices[] = {
 
 &lt;p&gt;Если на номер системы отправить смс сообщение со словом &amp;#171;&lt;strong&gt;STATUS&lt;/strong&gt;&amp;#187;, то в ответ вы получите примерно такое сообщение:&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://localhost:1313/post/img/status_msg.png&#34; alt=&#34;STATUS Message&#34; title=&#34;STATUS Message&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://test.odvinc.ru/post/img/status_msg.png&#34; alt=&#34;STATUS Message&#34; title=&#34;STATUS Message&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Можно пойти дальше и написать приложение, например для Android, но мы решили не заморачиваться =)&lt;/p&gt;
 
@@ -132,7 +122,7 @@ tDevice myDevices[] = {
 
 &lt;p&gt;P.S. При монтаже системы столкнулись с проблемой ложных срабатываний из-за достаточно большой длинны периметра. Как оказалось, бороться с этим достаточно просто установив несколько керамических конденсаторов по 5 вольтам Arduino.&lt;/p&gt;
 
-&lt;p&gt;Скачать среду разработки &lt;a title=&#34;Arduino IDE&#34; href=&#34;http://arduino.cc/en/Main/Software&#34; target=&#34;_blank&#34;&gt;Arduino IDE&lt;/a&gt; для вашей ОС можно по ссылке с официального сайта.&lt;/p&gt;
+&lt;p&gt;Скачать среду разработки &lt;a href=&#34;http://arduino.cc/en/Main/Software&#34;&gt;Arduino IDE&lt;/a&gt; для вашей ОС можно по ссылке с официального сайта.&lt;/p&gt;
 </description>
     </item>
     
