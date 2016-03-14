@@ -1,118 +1,225 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="ru-ru">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width">
-	<title>odvinc Blogs</title>
-	<link rel="profile" href="http://gmpg.org/xfn/11">
-	<!--[if lt IE 9]>
-	<script src="http://test.odvinc.ru//js/html5.js"></script>
-	<![endif]-->
-    
-    <link href="http://test.odvinc.ru//index.xml" rel="alternate" type="application/rss+xml" title="odvinc Blogs" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="generator" content="Hugo 0.15" />
 
-    <link rel='stylesheet' id='twentyfourteen-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A300%2C400%2C700%2C900%2C300italic%2C400italic%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+  <title>Умный дом на базе Arduino (Leonardo) и GSM модема &middot; odvinc Blogs</title>
 
-    <link rel='stylesheet' id='genericons-css' href='http://test.odvinc.ru//genericons/genericons.css' type='text/css' media='all' />
-	<link rel='stylesheet' id='twentyfourteen-style-css' href='http://test.odvinc.ru//css/style.css' type='text/css' media='all' />
-	
-	<script type='text/javascript' src='http://test.odvinc.ru//js/jquery/jquery.js'></script>
-	<script type='text/javascript' src='http://test.odvinc.ru//js/jquery/jquery-migrate.min.js'></script>
-	<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="http://test.odvinc.ru/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="http://test.odvinc.ru/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="http://test.odvinc.ru/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  <link rel="alternate" type="application/rss+xml" title="odvinc Blogs" href="http://test.odvinc.ru/index.xml" />
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="http://test.odvinc.ru/img/favicon.ico" type="image/x-icon" />
+
 </head>
 
-<body class="home blog masthead-fixed list-view full-width grid">
-<div id="page" class="hfeed site">
-	<header id="masthead" class="site-header" role="banner">
-		<div class="header-main">
-			<h1 class="site-title"><a href="http://test.odvinc.ru//index.html" rel="home">odvinc Blogs</a></h1>
 
-			<div class="search-toggle">
-				<a href="#search-container" class="screen-reader-text">Search</a>
-			</div>
+<body>
+<div id="layout">
 
-			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
-				<button class="menu-toggle">Primary Menu</button>
-				<a class="screen-reader-text skip-link" href="#content">Skip to content</a>
-				<div class="nav-menu">
-					<ul>
-						
-					</ul>
-				</div>
-			</nav>
-		</div>
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
 
-		<div id="search-container" class="search-box-wrapper hide">
-			<div class="search-box">
-                <script type="text/javascript">
-    function site_search(obj) {
-    	var host = window.location.host;
-        obj.q.value = "site:" + host + " " + obj.ss_q.value;
-    }
-</script>
-
-<aside id="search-3" class="widget widget_search">
-	<form role="search" class="search-form" action="//www.google.com/search" method="get" onSubmit="site_search(this)">
-
-	<input name="q" type="hidden" />
-	    <label>
-	        <span class="screen-reader-text">Search for:</span>
-	        <input name="ss_q" type="text" placeholder="Search ..." class="search-field" />
-	    </label>
-	    <input type="submit" value="Search" class="search-submit" />
-	</form>
-</aside>
-			</div>
-		</div>
-	</header>
-
-	<div id="main" class="site-main">
+  
+  <a class="pure-menu-heading brand" href="http://test.odvinc.ru/">odvinc | Blogs</a>
 
 
-<div id="main-content" class="main-content">
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://test.odvinc.ru/"><i class='fa fa-home fa-fw'></i>Home</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://test.odvinc.ru/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://test.odvinc.ru/about/"><i class='fa fa-user fa-fw'></i>About</a>
+      
+        </li>
+      
+    </ul>
+  </div>
 
-	<div id="primary" class="content-area">
-		<div id="content" class="site-content" role="main">
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
 
-			<header class="archive-header">
-				<h1 class="archive-title">Development Archive</h1>
-			</header>
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="http://test.odvinc.ru/index.xml"><i class="fa fa-rss fa-fw"></i>RSS</a>
+    </li>
 
-			
-				<article class="post type-post status-publish format-standard hentry">
+    
 
-	
-	<header class="entry-header">
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/odvinc" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
 
-	
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://facebook.com/odvinc" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
+    </li>
+    
 
-		<div class="entry-meta">
-			<span class="cat-links">
-                
-                <a href="http://test.odvinc.ru//categories/arduino/index.html" rel="category">arduino</a>
-                
-                <a href="http://test.odvinc.ru//categories/development/index.html" rel="category">development</a>
-                
-			</span>
-		</div>
+    
 
-		<h1 class="entry-title">Умный дом на базе Arduino (Leonardo) и GSM модема</h1>
+    
 
-		<div class="entry-meta">
-			<span class="entry-date">
-				<a href="http://test.odvinc.ru/smart_house//index.html" rel="bookmark">
-					<time class="entry-date" datetime="2014-04-04 00:00:00 &#43;0000 UTC">
-						April 4
-					</time>
-				</a>
-			</span>
-		</div>
+    
 
-	</header>
-	
-	<div class="entry-content">
-		<p>Эта статья о том как можно <a href="http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC">&#171;Умный дом&#187;</a> своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.</p>
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://instagram.com/odvinc" target="_blank"><i class="fa fa-instagram fa-fw"></i>Instagram</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/dmitry-okhrimenko-8150a863" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/odvinc" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https:////bitbucket.org/odvinc" target="_blank"><i class="fa fa-bitbucket-square fa-fw"></i>Bitbucket</a>
+    </li>
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div class="pure-g">
+  <div class="small-print pure-u-1 pure-u-md-1-1">
+    <small>&copy; 2016. All rights reserved.</small>
+  </div>
+  <div class="small-print pure-u-1 pure-u-md-1-1">
+    <small>Built with&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+    <small>Theme&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Умный дом на базе Arduino (Leonardo) и GSM модема</h1>
+  <h2></h2>
+</div>
+<div class="content">
+
+  <div class="post-meta">
+
+  <div>
+    <i class="fa fa-calendar fa-fw"></i>
+    <time>04 Apr 2014, 00:00</time>
+  </div>
+
+  
+
+  
+
+  
+  
+  
+  <div>
+    <i class="fa fa-tags fa-fw"></i>
+    
+      <a class="post-taxonomy-tag" href="http://test.odvinc.ru/tags/arduino">arduino</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://test.odvinc.ru/tags/development">development</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-tag" href="http://test.odvinc.ru/tags/leonardo">leonardo</a>
+    
+  </div>
+  
+  
+
+</div>
+
+  <p>Эта статья о том как можно <a href="http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC">&#171;Умный дом&#187;</a> своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.</p>
 
 <p>Идея собрать и реализовать данную систему принадлежит моему отцу, за ним же и вся часть связанная с паяльником =) Я же, являюсь автором этой статьи и заказанного отцом кода, так как он пока не очень быстро научился писать программы для ардуинчика.</p>
 
@@ -221,103 +328,62 @@ tDevice myDevices[] = {
 
 <p>Скачать среду разработки <a href="http://arduino.cc/en/Main/Software">Arduino IDE</a> для вашей ОС можно по ссылке с официального сайта.</p>
 
-	</div>
 
-	<footer class="entry-meta">
-		<span class="tag-links">		
-			
-                <a href="http://test.odvinc.ru//tags/arduino/index.html" rel="tag">arduino</a>
-            
-                <a href="http://test.odvinc.ru//tags/development/index.html" rel="tag">development</a>
-            
-                <a href="http://test.odvinc.ru//tags/leonardo/index.html" rel="tag">leonardo</a>
-            
-		</span>
-	</footer>
-</article> 
-			
-		
-		</div>
-	</div>
-	<div id="secondary">
+  
+<div class="prev-next-post pure-g">
+  <div class="pure-u-1 pure-u-md-1-2">
+    
+    <nav class="prev">
+      <a href="http://test.odvinc.ru/about/"><i class="fa fa-arrow-circle-left fa-fw fa-lg"></i>About</a>
+    </nav>
+    
+  </div>
+  <div class="pure-u-1 pure-u-md-1-2">
+    
+  </div>
+</div>
 
-	
 
-	<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
 
-		<script type="text/javascript">
-    function site_search(obj) {
-    	var host = window.location.host;
-        obj.q.value = "site:" + host + " " + obj.ss_q.value;
-    }
+(function() {
+    
+    
+    if (window.location.hostname == "localhost")
+        return;
+
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    var disqus_shortname = 'Your Disqus shortname';
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+</div>
+
+</div>
+</div>
+<script src="http://test.odvinc.ru/js/ui.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'Your Google Analytics tracking ID', 'auto');
+  ga('send', 'pageview');
+
 </script>
 
-<aside id="search-3" class="widget widget_search">
-	<form role="search" class="search-form" action="//www.google.com/search" method="get" onSubmit="site_search(this)">
 
-	<input name="q" type="hidden" />
-	    <label>
-	        <span class="screen-reader-text">Search for:</span>
-	        <input name="ss_q" type="text" placeholder="Search ..." class="search-field" />
-	    </label>
-	    <input type="submit" value="Search" class="search-submit" />
-	</form>
-</aside>
 
-		<aside id="recent-posts-3" class="widget widget_recent_entries">
-
-	
-	<h1 class="widget-title">Recent Posts</h1>
-		<ul>
-			
-			<li>
-				<a href="http://test.odvinc.ru/smart_house//index.html">Умный дом на базе Arduino (Leonardo) и GSM модема</a>
-			</li>
-			
-		</ul>
-	
-</aside>
-
-		<aside id="categories-3" class="widget widget_categories">
-	
-	<h1 class="widget-title">Categories</h1>
-
-	<ul>
-		
-		
-		
-		<li class="cat-item">
-			<a href="http://test.odvinc.ru//categories/arduino/index.html">Arduino</a>
-		</li>
-
-		
-		
-		<li class="cat-item">
-			<a href="http://test.odvinc.ru//categories/development/index.html">Development</a>
-		</li>
-
-		
-
-	</ul>
-
-</aside>
-
-	</div>
-
-</div>
-
-</div>
-
-		</div>
-
-		<footer id="colophon" class="site-footer" role="contentinfo">
-
-			<div class="site-info">
-				<a href="http://gohugo.io">Proudly powered by Hugo</a>
-			</div>
-		</footer>
-	</div>
-
-	<script type='text/javascript' src='http://test.odvinc.ru//js/functions.js'></script>
 </body>
 </html>
+

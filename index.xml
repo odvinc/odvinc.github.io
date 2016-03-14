@@ -5,9 +5,19 @@
     <link>http://test.odvinc.ru/</link>
     <description>Recent content on odvinc Blogs</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ru-ru</language>
+    <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://test.odvinc.ru/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title></title>
+      <link>http://test.odvinc.ru/smart_house/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>http://test.odvinc.ru/smart_house/</guid>
+      <description>&lt;p&gt;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=/post/smart-house/&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>About</title>
@@ -17,18 +27,33 @@
       <guid>http://test.odvinc.ru/about/</guid>
       <description>
 
-&lt;h2 id=&#34;обо-мне:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Обо мне&lt;/h2&gt;
+&lt;h2 id=&#34;об-этом-месте:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Об этом месте&lt;/h2&gt;
 
-&lt;p&gt;Я Вас любил. Простите за ошибку…&lt;/p&gt;
+&lt;p&gt;Это мой личный блог, где я и пишу все, что не могу сказать в другом месте.&lt;/p&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;hugo:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Hugo&lt;/h2&gt;
+
+&lt;p&gt;Этот блог работает на статическом движке &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; написанном на &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;. И это отличное решение, которое лично мне очень импонирует.&lt;/p&gt;
+
+&lt;p&gt;И вот почему - Hugo это:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;посты в формате &lt;a href=&#34;https://gohugo.io/content/example/&#34;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;хостинг вашего сайта или блога абсолютно в любом месте, включая бесплатные &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; и &lt;a href=&#34;http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html&#34;&gt;Amazon S3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;интеграция &amp;ldquo;из коробки&amp;rdquo; с одним из лучших решений для комментариев &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;автоматическая генерация RSS и Sitemaps&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Умный дом на базе Arduino (Leonardo) и GSM модема</title>
-      <link>http://test.odvinc.ru/smart_house/</link>
+      <link>http://test.odvinc.ru/post/smart-house/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://test.odvinc.ru/smart_house/</guid>
+      <guid>http://test.odvinc.ru/post/smart-house/</guid>
       <description>&lt;p&gt;Эта статья о том как можно &lt;a href=&#34;http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC&#34;&gt;&amp;#171;Умный дом&amp;#187;&lt;/a&gt; своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.&lt;/p&gt;
 
 &lt;p&gt;Идея собрать и реализовать данную систему принадлежит моему отцу, за ним же и вся часть связанная с паяльником =) Я же, являюсь автором этой статьи и заказанного отцом кода, так как он пока не очень быстро научился писать программы для ардуинчика.&lt;/p&gt;
