@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on odvinc Blogs</title>
+    <title>Posts on odvinc Blog</title>
     <link>http://test.odvinc.ru/post/</link>
-    <description>Recent content in Posts on odvinc Blogs</description>
+    <description>Recent content in Posts on odvinc Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://test.odvinc.ru/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Умный дом на базе Arduino (Leonardo) и GSM модема</title>
+      <title>Умный дом своими руками</title>
       <link>http://test.odvinc.ru/post/smart-house/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://test.odvinc.ru/post/smart-house/</guid>
-      <description>&lt;p&gt;Эта статья о том как можно &lt;a href=&#34;http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC&#34;&gt;&amp;#171;Умный дом&amp;#187;&lt;/a&gt; своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.&lt;/p&gt;
+      <description>&lt;p&gt;Эта статья о том как можно создать &lt;a href=&#34;http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC&#34;&gt;&amp;#171;Умный дом&amp;#187;&lt;/a&gt; своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.&lt;/p&gt;
 
 &lt;p&gt;Идея собрать и реализовать данную систему принадлежит моему отцу, за ним же и вся часть связанная с паяльником =) Я же, являюсь автором этой статьи и заказанного отцом кода, так как он пока не очень быстро научился писать программы для ардуинчика.&lt;/p&gt;
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>odvinc Blogs</title>
+    <title>odvinc Blog</title>
     <link>http://test.odvinc.ru/</link>
-    <description>Recent content on odvinc Blogs</description>
+    <description>Recent content on odvinc Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate>
@@ -40,21 +40,22 @@
 &lt;p&gt;И вот почему - Hugo это:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;посты в формате &lt;a href=&#34;https://gohugo.io/content/example/&#34;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;посты в формате &lt;a href=&#34;https://ru.wikipedia.org/wiki/Markdown&#34;&gt;Markdown&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;хостинг вашего сайта или блога абсолютно в любом месте, включая бесплатные &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; и &lt;a href=&#34;http://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html&#34;&gt;Amazon S3&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;интеграция &amp;ldquo;из коробки&amp;rdquo; с одним из лучших решений для комментариев &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;автоматическая генерация RSS и Sitemaps&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;множество готовых тем и возможность создавать свои собственные&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
-      <title>Умный дом на базе Arduino (Leonardo) и GSM модема</title>
+      <title>Умный дом своими руками</title>
       <link>http://test.odvinc.ru/post/smart-house/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>http://test.odvinc.ru/post/smart-house/</guid>
-      <description>&lt;p&gt;Эта статья о том как можно &lt;a href=&#34;http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC&#34;&gt;&amp;#171;Умный дом&amp;#187;&lt;/a&gt; своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.&lt;/p&gt;
+      <description>&lt;p&gt;Эта статья о том как можно создать &lt;a href=&#34;http://ru.wikipedia.org/wiki/%D0%A3%D0%BC%D0%BD%D1%8B%D0%B9_%D0%B4%D0%BE%D0%BC&#34;&gt;&amp;#171;Умный дом&amp;#187;&lt;/a&gt; своими руками с системой sms информирования владельца в случае нарушения периметра или срабатывания различных сенсоров.&lt;/p&gt;
 
 &lt;p&gt;Идея собрать и реализовать данную систему принадлежит моему отцу, за ним же и вся часть связанная с паяльником =) Я же, являюсь автором этой статьи и заказанного отцом кода, так как он пока не очень быстро научился писать программы для ардуинчика.&lt;/p&gt;
 
