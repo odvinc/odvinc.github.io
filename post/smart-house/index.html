@@ -80,6 +80,18 @@
       
       
         <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://odvinc.ru/topics/"><i class='fa fa-folder fa-fw'></i>Topics</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="http://odvinc.ru/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
           <a class="pure-menu-link" href="http://odvinc.ru/about/"><i class='fa fa-user fa-fw'></i>About</a>
       
         </li>
@@ -108,6 +120,10 @@
     </li>
     
 
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://plus.google.com/+odvinc" target="_blank"><i class="fa fa-google-plus-square fa-fw"></i>Google+</a>
+    </li>
     
 
     
@@ -194,11 +210,23 @@
 
   <div>
     <i class="fa fa-calendar fa-fw"></i>
-    <time>04 Apr 2014, 00:00</time>
+    <time>04 Apr 2014</time>
   </div>
 
   
 
+  
+  
+  
+  <div>
+    <i class="fa fa-folder fa-fw"></i>
+    
+      <a class="post-taxonomy-topic" href="http://odvinc.ru/topics/arduino">arduino</a>&nbsp;&#47;
+    
+      <a class="post-taxonomy-topic" href="http://odvinc.ru/topics/development">development</a>
+    
+  </div>
+  
   
 
   
@@ -226,7 +254,7 @@
 <p>Ядром нашей системы будет выступать плата ввода-вывода <a href="http://arduino.cc/en/Main/Products" title="Arduino Products">Arduino</a> (в нашем случае <a href="http://arduino.cc/en/Main/ArduinoBoardLeonardo">Arduino Leonardo</a>), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке <a href="http://ru.wikipedia.org/wiki/Processing">Processing</a>/Wiring (очень простой и понятный си подобный язык ).</p>
 
 <p><center>
-<a href="http://arduino.cc/en/Main/ArduinoBoardLeonardo"><img src="http://odvinc.ru/post/img/ArduinoLeonardoFront_2_400px.jpg" alt="Arduino Leonardo" title="Arduino Leonardo" /></a><br />
+<a href="http://arduino.cc/en/Main/ArduinoBoardLeonardo"><img src="http://odvinc.ru/img/post/ArduinoLeonardoFront_2_400px.jpg" alt="Arduino Leonardo" title="Arduino Leonardo" /></a><br />
 <small>Arduino Leonardo</small>
 </center></p>
 
@@ -235,7 +263,7 @@
 <p>Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать <a href="http://arduino.cc/en/Main/ArduinoGSMShield">Arduino GSM Shield</a>. Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.</p>
 
 <p><center>
-<img src="http://odvinc.ru/post/img/Siemens-MC35i-Terminal.jpg" alt="Siemens MC35i Terminal" title="Siemens MC35i Terminal" /><br />
+<img src="http://odvinc.ru/img/post/Siemens-MC35i-Terminal.jpg" alt="Siemens MC35i Terminal" title="Siemens MC35i Terminal" /><br />
 <small>Siemens MC35i Terminal</small>
 </center></p>
 
@@ -245,7 +273,7 @@
 
 <p>Ссылка на исходный код доступна на <a title="Smart House" href="https://github.com/odvinc/smart_house" target="_blank">GitHub</a>. Там же можно найти несколько вариаций, в которых кнопка постановки на охрану и сенсоры логически инвертированы с 0 на 1. Одним из вариантов является SoftwareSerial - может пригодиться, тем кто будет использовать Arduino с одним последовательным портом и кто захочет переопределить контакты RX,TX на условно произвольные. Для выбора вариантов нужно нажимать на кнопочку branch, как показано на скриншете:</p>
 
-<p><center><img src="http://odvinc.ru/post/img/select_branch.png" alt="Select GitHub Branch" title="Select GitHub Branch" /></center></p>
+<p><center><img src="http://odvinc.ru/img/post/select_branch.png" alt="Select GitHub Branch" title="Select GitHub Branch" /></center></p>
 
 <p>Основной вариант программы с использованием модема на порту COM1 (в коде Serial1) находится в branch: <strong>master</strong>. Загрузить скетч (так принято называть программы для arduino) целиком, можно нажав кнопку <strong>&#171;Download ZIP&#187;</strong>, в правом нижнем углу.</p>
 
@@ -318,7 +346,7 @@ tDevice myDevices[] = {
 
 <p>Если на номер системы отправить смс сообщение со словом &#171;<strong>STATUS</strong>&#187;, то в ответ вы получите примерно такое сообщение:</p>
 
-<p><center><img src="http://odvinc.ru/post/img/status_msg.png" alt="STATUS Message" title="STATUS Message" /></center></p>
+<p><center><img src="http://odvinc.ru/img/post/status_msg.png" alt="STATUS Message" title="STATUS Message" /></center></p>
 
 <p>Можно пойти дальше и написать приложение, например для Android, но мы решили не заморачиваться =)</p>
 

@@ -10,16 +10,6 @@
     <atom:link href="http://odvinc.ru/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title></title>
-      <link>http://odvinc.ru/smart_house/</link>
-      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>http://odvinc.ru/smart_house/</guid>
-      <description>&lt;p&gt;&lt;meta http-equiv=&#34;refresh&#34; content=&#34;0; url=/post/smart-house/&#34; /&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>About</title>
       <link>http://odvinc.ru/about/</link>
       <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
@@ -62,7 +52,7 @@
 &lt;p&gt;Ядром нашей системы будет выступать плата ввода-вывода &lt;a href=&#34;http://arduino.cc/en/Main/Products&#34; title=&#34;Arduino Products&#34;&gt;Arduino&lt;/a&gt; (в нашем случае &lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34;&gt;Arduino Leonardo&lt;/a&gt;), которая представляет из себя контроллер позволяющий достаточно легко обрабатывать цифровые и аналоговые сигналы и программировать логику в среде разработки на языке &lt;a href=&#34;http://ru.wikipedia.org/wiki/Processing&#34;&gt;Processing&lt;/a&gt;/Wiring (очень простой и понятный си подобный язык ).&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34;&gt;&lt;img src=&#34;http://odvinc.ru/post/img/ArduinoLeonardoFront_2_400px.jpg&#34; alt=&#34;Arduino Leonardo&#34; title=&#34;Arduino Leonardo&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
+&lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34;&gt;&lt;img src=&#34;http://odvinc.ru/img/post/ArduinoLeonardoFront_2_400px.jpg&#34; alt=&#34;Arduino Leonardo&#34; title=&#34;Arduino Leonardo&#34; /&gt;&lt;/a&gt;&lt;br /&gt;
 &lt;small&gt;Arduino Leonardo&lt;/small&gt;
 &lt;/center&gt;&lt;/p&gt;
 
@@ -71,7 +61,7 @@
 &lt;p&gt;Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать &lt;a href=&#34;http://arduino.cc/en/Main/ArduinoGSMShield&#34;&gt;Arduino GSM Shield&lt;/a&gt;. Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.&lt;/p&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;img src=&#34;http://odvinc.ru/post/img/Siemens-MC35i-Terminal.jpg&#34; alt=&#34;Siemens MC35i Terminal&#34; title=&#34;Siemens MC35i Terminal&#34; /&gt;&lt;br /&gt;
+&lt;img src=&#34;http://odvinc.ru/img/post/Siemens-MC35i-Terminal.jpg&#34; alt=&#34;Siemens MC35i Terminal&#34; title=&#34;Siemens MC35i Terminal&#34; /&gt;&lt;br /&gt;
 &lt;small&gt;Siemens MC35i Terminal&lt;/small&gt;
 &lt;/center&gt;&lt;/p&gt;
 
@@ -81,7 +71,7 @@
 
 &lt;p&gt;Ссылка на исходный код доступна на &lt;a title=&#34;Smart House&#34; href=&#34;https://github.com/odvinc/smart_house&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt;. Там же можно найти несколько вариаций, в которых кнопка постановки на охрану и сенсоры логически инвертированы с 0 на 1. Одним из вариантов является SoftwareSerial - может пригодиться, тем кто будет использовать Arduino с одним последовательным портом и кто захочет переопределить контакты RX,TX на условно произвольные. Для выбора вариантов нужно нажимать на кнопочку branch, как показано на скриншете:&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://odvinc.ru/post/img/select_branch.png&#34; alt=&#34;Select GitHub Branch&#34; title=&#34;Select GitHub Branch&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://odvinc.ru/img/post/select_branch.png&#34; alt=&#34;Select GitHub Branch&#34; title=&#34;Select GitHub Branch&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Основной вариант программы с использованием модема на порту COM1 (в коде Serial1) находится в branch: &lt;strong&gt;master&lt;/strong&gt;. Загрузить скетч (так принято называть программы для arduino) целиком, можно нажав кнопку &lt;strong&gt;&amp;#171;Download ZIP&amp;#187;&lt;/strong&gt;, в правом нижнем углу.&lt;/p&gt;
 
@@ -154,7 +144,7 @@ tDevice myDevices[] = {
 
 &lt;p&gt;Если на номер системы отправить смс сообщение со словом &amp;#171;&lt;strong&gt;STATUS&lt;/strong&gt;&amp;#187;, то в ответ вы получите примерно такое сообщение:&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://odvinc.ru/post/img/status_msg.png&#34; alt=&#34;STATUS Message&#34; title=&#34;STATUS Message&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&#34;http://odvinc.ru/img/post/status_msg.png&#34; alt=&#34;STATUS Message&#34; title=&#34;STATUS Message&#34; /&gt;&lt;/center&gt;&lt;/p&gt;
 
 &lt;p&gt;Можно пойти дальше и написать приложение, например для Android, но мы решили не заморачиваться =)&lt;/p&gt;
 
