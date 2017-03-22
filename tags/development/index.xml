@@ -2,11 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on odvinc Blog</title>
-    <link>http://odvinc.ru/tags/development/</link>
+    <link>http://odvinc.ru/tags/development/index.xml</link>
     <description>Recent content in Development on odvinc Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://odvinc.ru/tags/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -26,6 +25,8 @@
 &lt;small&gt;Arduino Leonardo&lt;/small&gt;
 &lt;/center&gt;&lt;/p&gt;
 
+&lt;p&gt;&lt;/p&gt;
+
 &lt;p&gt;Заказать Arduino можно, например на &lt;a href=&#34;http://aliexpress.com&#34;&gt;AliExpress&lt;/a&gt;. Стоимость за версию &lt;a href=&#34;http://arduino.cc/en/Main/ArduinoBoardLeonardo&#34; title=&#34;Leonardo&#34;&gt;Arduino Leonardo&lt;/a&gt; у хорошего продавца, в среднем составляет 10$.&lt;/p&gt;
 
 &lt;p&gt;Для управления системой и смс информированием можно использовать практически любой GSM модем имеющий возможность обработки AT команд через последовательный порт. В качестве эталонного варианта предлагаю использовать &lt;a href=&#34;http://arduino.cc/en/Main/ArduinoGSMShield&#34;&gt;Arduino GSM Shield&lt;/a&gt;. Мы же использовали имеющийся в наличии старенький Siemens MC35i Terminal.&lt;/p&gt;
@@ -35,7 +36,7 @@
 &lt;small&gt;Siemens MC35i Terminal&lt;/small&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;Схему подключения пришлось немного доработать, так как потребовалось согласовать уровни. Для этого была использована микросхема &lt;a href=&#34;http://ru.wikipedia.org/wiki/MAX232&#34;&gt;MAX232&lt;/a&gt;. Микросхему установили навесным монтажом, непосредственно внутри модема. Схема подключения аналогична &lt;a title=&#34;Схема подключения MAX232&#34; href=&#34;http://www.robolive.ru/circuit/max232.php&#34; target=&#34;_blank&#34;&gt;этой&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Схему подключения пришлось немного доработать, так как потребовалось согласовать уровни. Для этого была использована микросхема &lt;a href=&#34;http://ru.wikipedia.org/wiki/MAX232&#34;&gt;MAX232&lt;/a&gt;. Микросхему установили навесным монтажом, непосредственно внутри модема. Схема подключения аналогична &lt;a title=&#34;Схема подключения MAX232&#34; href=&#34;http://www.joyta.ru/7033-mikrosxema-max232-opisanie-sxema-vklyucheniya-datasheet/&#34; target=&#34;_blank&#34;&gt;этой&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Исходный код, достаточно подробно документирован, фактически комментарий есть к каждой строке, чтобы  логика программы была понятна человеку не сильно сведущему в программировании, и в случае необходимости, каждый смог бы переделать программу под свои нужды.&lt;/p&gt;
 
@@ -122,8 +123,7 @@ tDevice myDevices[] = {
 
 &lt;p&gt;P.S. При монтаже системы столкнулись с проблемой ложных срабатываний из-за достаточно большой длинны периметра. Как оказалось, бороться с этим достаточно просто установив несколько керамических конденсаторов по 5 вольтам Arduino.&lt;/p&gt;
 
-&lt;p&gt;Скачать среду разработки &lt;a href=&#34;http://arduino.cc/en/Main/Software&#34;&gt;Arduino IDE&lt;/a&gt; для вашей ОС можно по ссылке с официального сайта.&lt;/p&gt;
-</description>
+&lt;p&gt;Скачать среду разработки &lt;a href=&#34;http://arduino.cc/en/Main/Software&#34;&gt;Arduino IDE&lt;/a&gt; для вашей ОС можно по ссылке с официального сайта.&lt;/p&gt;</description>
     </item>
     
   </channel>
