@@ -2,65 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://odvinc.ru/about/</loc>
-    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/post/smart-house/</loc>
-    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/tags/arduino/</loc>
+    <loc>https://odvinc.ru/</loc>
     <lastmod>2014-04-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://odvinc.ru/topics/arduino/</loc>
+    <loc>https://odvinc.ru/about/</loc>
     <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://odvinc.ru/tags/development/</loc>
+    <loc>https://odvinc.ru/post/smart-house/</loc>
     <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/topics/development/</loc>
-    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/tags/leonardo/</loc>
-    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/post/</loc>
-    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/topics/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://odvinc.ru/</loc>
-    <lastmod>2014-04-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

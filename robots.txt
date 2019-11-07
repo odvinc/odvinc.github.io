@@ -1,8 +1,1 @@
 User-agent: *
-Disallow: /tmp
-
-User-agent: Yandex
-Disallow: /tmp
-Host: odvinc.ru
-
-Sitemap: http://odvinc.ru/sitemap.xml
