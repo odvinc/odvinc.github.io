@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>development on odvinc Blog</title>
-    <link>https://odvinc.ru/tags/development/</link>
-    <description>Recent content in development on odvinc Blog</description>
+    <title>odvinc Blog</title>
+    <link>https://odvinc.ru/</link>
+    <description>Recent content on odvinc Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
     <lastBuildDate>Fri, 04 Apr 2014 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://odvinc.ru/tags/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://odvinc.ru/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>https://odvinc.ru/about/</link>
+      <pubDate>Fri, 04 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://odvinc.ru/about/</guid>
+      <description>Об этом месте Это мой личный блог, где я и пишу все, что не могу сказать в другом месте.
+
+Hugo Этот блог работает на статическом движке Hugo написанном на Go. И это отличное решение, которое лично мне очень импонирует.
+И вот почему - Hugo это:
+ посты в формате Markdown хостинг вашего сайта или блога абсолютно в любом месте, включая бесплатные GitHub Pages и Amazon S3 интеграция &amp;ldquo;из коробки&amp;rdquo; с одним из лучших решений для комментариев Disqus автоматическая генерация RSS и Sitemaps</description>
+    </item>
     
     <item>
       <title>Умный дом своими руками</title>
